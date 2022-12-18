@@ -1,8 +1,0 @@
-gitgit.ts
-/.idea
-package.json
-package-lock.json
-tsconfig.json
-.prettierrc
-cypress
-cypress.config.ts
