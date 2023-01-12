@@ -33,7 +33,7 @@ export const text_box_form = {
   email: "input#userEmail",
   current_address: "textarea#currentAddress",
   permanent_address: "textarea#permanentAddress",
-  button: "button#submit",
+  button_submit: "button#submit",
   user_card_name: "p#name",
   user_card_email: "p#email",
   user_current_address: "p#currentAddress",

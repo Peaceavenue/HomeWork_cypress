@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "npx cypress open",
-    "cypress:run": "npx cypress run"
+    "cypress:run": "npx cypress run",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,9 @@
     "cypress": "^12.1.0",
     "prettier": "^2.8.1",
     "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.20.1"
   }
 }
